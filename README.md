@@ -1,12 +1,13 @@
-# Microservice Endpoints
+# Endpoints
 - ### [Eureka Server](http://localhost:8761/) - Service Discovery
 - ### [Api Gateway](http://localhost:8080)
 - ### [Config Server](http://localhost:9003/application/default) - Common/Env configurations of all services
+- ### [Distributed Tracer](http://localhost:9411/) - configured in docker
+- ### [Kafka Magic Dashboard](http://localhost:9080/cluster) - configured in docker
 - ### Services:
   - ### [User](http://localhost:9002/swagger-ui/index.html)
   - ### [Contact](http://localhost:9001/swagger-ui/index.html)
-- ### [Distributed Tracer](http://localhost:9411/) - configured in docker
-- ### [Kafka Magic Dashboard](http://localhost:9080/cluster) - configured in docker
+
 
 
 # Kafka
