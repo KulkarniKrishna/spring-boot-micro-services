@@ -19,7 +19,7 @@ public class ContactController {
     @Autowired
     private ContactService contactService;
 
-    @GetMapping("/byUserId/{userid}")
+    @GetMapping("/{userid}")
     public List<Contact> getContactsByUserId(@PathVariable Long userid){
         return contactService.getContactOfUserById(userid);
     }
