@@ -1,3 +1,6 @@
+# Description
+ - Developed a Spring Boot microservice-based application with components for service discovery, API Gateway, distributed tracing, config server, user, and contact services. Configured Kafka for asynchronous communication and implemented centralized config management and tracing for efficient monitoring and debugging.
+- Set up a Jenkins CI/CD pipeline to automate deployment from GitHub, including Docker image creation and pushing to Docker Hub.
 # Endpoints
 - ### [Eureka Server](http://localhost:8761/) - Service Discovery
 - ### [Api Gateway](http://localhost:8080)
